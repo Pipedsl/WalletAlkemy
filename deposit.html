@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallet Alkemy</title>
-    <!--se agrega bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h2>Depositar</h2>
-    <form action="">
-        <label for="deposit">Monto a depositar: </label>
-        <input type="number" name="deposit" id="deposit">
-        <button type="submit">Realizar depósito</button>
-        <a href="menu.html">Volver al Menú Principal</a>
-    </form>
+    <div class="container">
+        <div class="text-center">
+            <h2>Depositar</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <form>
+                            <label for="deposit">Monto a depositar: </label>
+                            <input type="number" name="deposit" id="deposit">
+                            <button type="button" id="depositButton" class="btn btn-primary">Realizar depósito</button>
+                            <a href="menu.html" class="btn btn-primary">Volver al Menú Principal</a>
+                        </form>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
 </body>
-<!-- se agrega JQuery-->
+<script src="assets/js/cuenta.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

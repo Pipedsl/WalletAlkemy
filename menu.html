@@ -6,17 +6,37 @@
     <title>Wallet Alkemy</title>
     <!--se agrega bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
 </head>
 <body>
-    <h2>Menú Principal</h2>
-    <label for="saldo">Dinero en la cuenta: </label>
-    <h2 name="saldo">$60.000</h2>
-    <a href="deposit.html">Depositar</a>
-    <a href="sendmoney.html">Enviar Dinero</a>
-    <a href="transactions.html">Últimos Movimientos</a>
+    <div class="container">
+        <div class="text-center">
+            <h2>Menú Principal</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-4">
+                    <label for="saldo">Dinero en la cuenta: </label>
+                    <h2 id="saldoCartera">Saldo: $1000</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <a href="deposit.html" class="btn btn-primary">Depositar</a>
+                </div>
+                <div class="col-4">
+                    <a href="sendmoney.html" class="btn btn-primary">Enviar Dinero</a>
+                </div>
+                <div class="col-4">
+                    <a href="transactions.html" class="btn btn-primary">Últimos Movimientos</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <!-- se agrega JQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="assets/js/cuenta.js"></script>
+
 </html>

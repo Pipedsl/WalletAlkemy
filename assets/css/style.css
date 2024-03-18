@@ -1,0 +1,14 @@
+body {
+    background: black
+}
+.container {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to bottom left, #9f3887 0%, #020202 70%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 8px;
+    border: 2px solid purple;
+}
