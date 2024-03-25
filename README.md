@@ -27,7 +27,7 @@ Guidelines for contributing to the project.
 - [Bootstrap](https://getbootstrap.com/)
 
 ### Demo
-Link to a functional prototype or demo showcasing the main features.
+- [Demo](https://www.youtube.com/watch?v=ePJP8K0uxwQ)
 
 ## Español
 
@@ -56,4 +56,4 @@ Guías para contribuir al proyecto.
 - [Bootstrap](https://getbootstrap.com/)
 
 ### Demostración
-Enlace a un prototipo funcional o demostración que muestre las principales características.
+- [Demostración](https://www.youtube.com/watch?v=ePJP8K0uxwQ)
